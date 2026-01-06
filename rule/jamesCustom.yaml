@@ -44,5 +44,11 @@ payload:
   - DOMAIN,download.todesktop.com
   - DOMAIN-SUFFIX,download.todesktop.com
 
+  # AWS 相关域名（Cursor 可能直接连接 AWS）
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,awsglobalaccelerator.com
+  - DOMAIN-SUFFIX,compute-1.amazonaws.com
+  - DOMAIN-SUFFIX,ec2.amazonaws.com
+
   # 通配符规则（兜底保护）
   - DOMAIN-SUFFIX,cursor.sh
