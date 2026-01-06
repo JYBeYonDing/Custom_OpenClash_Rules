@@ -3,9 +3,18 @@ payload:
   # =======================
   # Cursor AI 服务路由配置
   # =======================
+  # 主域名（重要：账户和认证相关）
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN,cursor.com
+  - DOMAIN,www.cursor.com
+  - DOMAIN,auth.cursor.com
+  - DOMAIN,accounts.cursor.com
+
   # 核心 API 服务（AI对话）
   - DOMAIN,api2.cursor.sh
   - DOMAIN-SUFFIX,api2.cursor.sh
+  - DOMAIN,api.cursor.sh
+  - DOMAIN-SUFFIX,api.cursor.sh
 
   # 代码补全服务
   - DOMAIN,api3.cursor.sh
@@ -28,6 +37,7 @@ payload:
   # 扩展市场和CDN
   - DOMAIN,marketplace.cursorapi.com
   - DOMAIN-SUFFIX,marketplace.cursorapi.com
+  - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,cursor-cdn.com
 
   # 客户端更新服务
